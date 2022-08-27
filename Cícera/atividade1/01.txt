@@ -1,0 +1,45 @@
+ATIVIDADE 1 - LOKOMAT
+Se o paciente não concluiu todas as sessões
+Paciente chega ao consultório
+Se for a primeira sessão
+Avalie o paciente
+Se não, avalie o paciente e compare a avaliação com os resultados anteriores
+Coloque o paciente no Lokomat
+Ajuste o suporte dinâmico ao paciente
+Levante o paciente com o elevador
+Acople e ajuste o exoesqueleto ao paciente
+Acople e ajuste os ângulos e comprimentos das juntas do joelho e cintura ao paciente
+Se a amplitude de movimento das pernas do paciente é satisfatória
+O suporte para os pés é colocado
+Se não, os ajustes serão feitos
+Utilize os dados da avaliação para ajustar a intensidade da terapia
+Inicie o ciclo de marcha
+Se a versão do Lokomat for a Lokomatpro Sensation
+Os algoritmos do Lokomatpro Sensation automaticamente adaptarão o suporte robótico para que o paciente tenha o desafio máximo
+O Lokomatpro Sensation fornecerá feedback de áudio e música para o paciente, melhorando a motivação e engajamento
+O paciente terá feedback personalizado, vendo seu progresso por meio de jogos interativos para moldar individualmente o seu treinamento
+O paciente terá um equipamento mais moderno, com orthese pediatrica opcional, movimento pélvico FreeD, e um feedback de perfomance melhorado
+Se não, faça os ajustes manualmente de acordo com o progresso do paciente e o feedback básico fornecido e, por fim, apresente o feedback ao paciente
+Registre o velocidade, amplitude de movimento e força do paciente
+Se o paciente evoluiu suficientemente para receber alta
+Então ele receberá alta
+Se não, ele continuará o tratamento
+Se todas as sessões foram concluídas e os resultados não foram satisfatórios
+Então serão testados outros métodos
+
+ZEROG
+O paciente chega no consultório
+Se o paciente estiver sem a cinta para suporte
+Então uma cinta é vestida nele
+A cinta é acoplada ao robô zeroG
+Cintos de suporte são colocados nas próteses do paciente
+Ajuste os controles de queda, movimento, peso corporal e rastreamento da posição do robô.
+É iniciado o processo de caminhada
+Se o paciente está andando confortavelmente
+Diminua o nível de suporte
+Se não, mantenha o suporte
+Se o paciente estiver andando rápido demais
+Então deve ser pressionado o botão de parada rápida
+Senão se for necessário descer o paciente rapidamente
+Então o botão de emergência deve ser apertado para colocar o paciente no chão
+Após a sessão, registrar e apresentar o progresso do paciente;
